@@ -1,2 +1,5 @@
 # Client-Server
+Java provides support for networking. This is an important feature for developing applications that can communicate over a network. The traditional client-server environments require networking capabilities for both client (user of services) and servers (provider of services). The chapter presents the networking concepts by introducing the concept of sockets. The chapter explains the use of addresses, protocols, and ports. Addresses are unique for each computer. A protocol is a standard for communicating. A port can be thought of as a logical address. Ports provide a means for multiple network applications to run simultaneously on the same computer.
 An application that uses a socket connection to allow a client to specify a file name of a text file and have the server send the contents of the file or indicate the file does not exist.
+The server must contain a text based password file username & password.  
+The client must pass a valid username and password to establish a connection with the Server 
